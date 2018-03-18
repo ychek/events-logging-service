@@ -1,21 +1,21 @@
 # Logging service for events
 
-###Requirements
+### Requirements
 - Python 3.6+ (for async features)
 - Python libraries in the `requirements.txt`
 - MongoDB 3.6.3
 
-###Installation
+### Installation
 
 `pip install -r requirements.txt`
 
-###Feature
+### Feature
 - Use Tornado asynchronous framework. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections
 - Motor (MongoDB driver) presents a callback- or Future-based API for non-blocking access to MongoDB from Tornado or asyncio.
 - The process could be run independently on the same machine (or on other machines) and we can fork it (i.e as the number of CPUs) and use same or different listening port.
 
 
-###Usage:
+### Usage:
 - Support POST requests in JSON
 
 ###### Single event request:
