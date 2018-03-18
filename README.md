@@ -56,6 +56,6 @@
     	}
     ]
 
-[[https://github.com/ychek/events-logging-service/blob/master/Suggested_Architecture.png|alt=architecture]]
+![architecture](https://github.com/ychek/events-logging-service/blob/master/Suggested_Architecture.png)
 
 #### Enjoy!
